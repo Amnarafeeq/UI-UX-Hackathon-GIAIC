@@ -32,7 +32,7 @@ const Navbar = () => (
 
                     </ul>
                 </div>
-                <div className='w-[324px] h-[54px]  flex items-center text-textColor2 justify-evenly bg-red-400'>
+                <div className='w-[324px] h-[54px]  flex items-center text-textColor2 justify-evenly '>
                     <div className='w-[36px] h-[54px] flex items-center justify-\ '>
 
                         <h2 className='font-bold text-sm'>Login</h2>

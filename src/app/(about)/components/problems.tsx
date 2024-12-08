@@ -2,7 +2,7 @@ import React from 'react'
 
 const Problems = () => {
   return (
-    <div className='w-[1018px] h-[188px] bg-slate-400 mx-auto my-6 flex  justify-between items-center'>
+    <div className='w-[1018px] h-[188px]  mx-auto my-6 flex  justify-between items-center'>
         <div className='w-[394px] h-full flex flex-col justify-evenly'> 
             <p className='text-sm text-red-500'>Problems trying</p>
             <p className='text-[24px] font-bold text-darkBackground'>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. </p>
