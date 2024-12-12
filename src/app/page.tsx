@@ -9,14 +9,14 @@ import Header from "./header/header";
 
 export default function Home() {
   return (
-   <>
-   <Header/>
-   <HeroSection/>
- <ShopCards/>
- <BestSeller/>
- <Summer/>
- <FluidSec/>
- <FeaturedPosts/>
-   </>
+    <>
+      <Header />
+      <HeroSection />
+      <ShopCards />
+      <BestSeller />
+      <Summer />
+      <FluidSec />
+      <FeaturedPosts />
+    </>
   );
 }

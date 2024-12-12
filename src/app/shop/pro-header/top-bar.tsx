@@ -10,7 +10,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 const TopBar = () => {
   return (
     <header
-      className={`hidden lg:block h-[58px] bg-darkBackground text-white text-[14px] font-bold py-[5px] ${montserrat.className}`}
+      className={`hidden md:block h-[58px] bg-greenBackground text-white text-[14px] font-bold py-[5px] ${montserrat.className}`}
     >
       <div className="h-[46px] flex  items-center justify-between mx-4">
         <div className="w-[415px] h-full  flex justify-between">
