@@ -40,7 +40,7 @@ const ShopCards = () => {
               Women
             </h5>
           </div>
-          <div className="w-full h-auto lg:w-[240px] lg:h-[500px] gap-y-4 bg-red-300 lg:flex flex-col flex-wrap justify-between">
+          <div className="w-full h-auto lg:w-[240px] lg:h-[500px] gap-y-4 lg:flex flex-col flex-wrap justify-between">
             <div className="w-full h-auto lg:h-[242px] relative">
               <Image
                 width={510}

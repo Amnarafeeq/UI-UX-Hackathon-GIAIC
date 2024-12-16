@@ -14,12 +14,12 @@ const Summer = () => {
       <Carousel className="w-full h-full  max-h-[100vh] p-6">
         <CarouselContent>
           <CarouselItem className="w-full h-auto bg-greenBackground flex flex-col justify-end items-center ">
-            <div className="w-full h-auto lg:w-[1049px] md:h-[600px] flex flex-col md:flex-row items-center justify-between max-sm:gap-y-20  text-white">
-              <div className=" h-auto lg:w-[509px] md:pl-7 md:h-[432px] flex flex-1 flex-col md:justify-between gap-y-5 mb-4  max-sm:text-center ">
+            <div className="w-full h-auto lg:w-[1049px]  md:h-[600px] flex flex-col md:flex-row items-center justify-between max-sm:gap-y-20  text-white">
+              <div className=" h-auto lg:w-[509px]  md:pl-7 md:h-[432px] flex flex-1 flex-col md:justify-between gap-y-5 mb-4  max-sm:text-center ">
                 <h4 className="text-sm max-sm:text-center md:text-[20px]">
                   SUMMER 2020
                 </h4>
-                <h1 className="font-bold max-sm:text-center text-[40px] md:text-[58px]">
+                <h1 className="font-bold max-sm:text-center text-[35px] md:text-[58px]">
                   Vita Classic Product
                 </h1>
                 <p className="text-sm w-[250px] max-sm:text-center max-sm:mx-auto md:w-[341px]">

@@ -15,9 +15,9 @@ const Fluid = () => {
           />
         </div>
       </div>
-      <div className="w-auto mx-auto md:w-[573px] h-auto md:h-[326px] flex flex-col md:justify-between text-center justify- gap-y-7">
+      <div className="w-auto mx-auto md:w-[573px] h-auto md:h-[326px] flex flex-col md:justify-between text-center justify- gap-y-7 ">
         <h4 className="text-[#BDBDBD] font-bold">SUMMER 2022</h4>
-        <h1 className="text-[40px] font-bold   md:w-[387px] text-darkBackground">
+        <h1 className="text-[30px] md:text-[40px] font-bold   md:w-[387px] text-darkBackground">
           Part of the Neural Universe
         </h1>
         <div className="w-auto  md:w-[369px] text-center h-auto md:h-[60px]  leading-8 text-[20px] text-textColor1">
@@ -25,11 +25,11 @@ const Fluid = () => {
             We know how large objects will act, but things on a small scale.
           </p>
         </div>
-        <div className="w-[339px] h-[52px] flex justify-center max-sm:mx-auto md:justify-between items-center">
-          <button className="text-center text-sm font-bold px-8 bg-buttonColor text-white h-full rounded-[5px] ">
+        <div className="md:w-[339px] md:h-[52px] flex justify-center gap-y-2 max-sm:mx-auto max-sm:flex-col md:justify-between items-center ">
+          <button className=" text-center text-sm font-bold max-sm:py-2 px-8 bg-buttonColor text-white h-full rounded-[5px] ">
             BUY NOW
           </button>
-          <button className="text-center text-sm font-bold px-12 bg-white h-full border-2 border-buttonColor text-buttonColor rounded-[5px]">
+          <button className="text-center text-sm font-bold max-sm:py-2 px-12 bg-white h-full border-2 border-buttonColor text-buttonColor rounded-[5px]">
             READ MORE
           </button>
         </div>

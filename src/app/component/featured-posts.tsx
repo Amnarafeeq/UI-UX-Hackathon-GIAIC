@@ -9,7 +9,7 @@ const featuredPosts = [
 const FeaturedPosts = () => {
   return (
     <div className="w-full h-auto lg:w-[1050px] lg:h-[1044px]  flex flex-col justify-evenly mx-auto max-lg:p-6 ">
-      <div className="w-full h-auto  lg:w-[692px] lg:h-[134px] mx-auto  text-center flex flex-col justify-between">
+      <div className="w-full h-auto  lg:w-[692px] lg:h-[134px] mx-auto  text-center flex flex-col justify-between ">
         <h4 className="text-sm text-textColor2">Practice Advice</h4>
         <h3 className="text-[40px] text-darkBackground font-bold">
           Featured Posts
@@ -20,7 +20,7 @@ const FeaturedPosts = () => {
         </p>
       </div>
 
-      <div className="w-full h-auto lg:h-[606px]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-4 rounded-[5px] px-2">
+      <div className="w-full h-auto lg:h-[606px]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-4 rounded-[5px] px-2 mt-5">
         {featuredPosts.map((post) => (
           <div key={post.id} className="w-full lg:w-[328px] h-full  shadow-lg ">
             <FeaturedPostsProp img={post.img} />

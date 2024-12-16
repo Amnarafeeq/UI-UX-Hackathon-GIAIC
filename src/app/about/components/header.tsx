@@ -23,7 +23,7 @@ const Navbar = () => (
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="">Product</Link>
+              <Link href="/product">Product</Link>
             </li>
 
             <li>
@@ -42,10 +42,10 @@ const Navbar = () => (
             <h2 className="font-bold text-sm">Login</h2>
           </div>
 
-          <div className="flex justify-evenly items-center text-sm  px-4 space-x-2 py-3 bg-textColor2 text-white font-bold rounded-[5px]">
+          <Link href="/member" className="flex justify-evenly items-center text-sm  px-4 space-x-2 py-3 bg-textColor2 text-white font-bold rounded-[5px]">
             <button>Become a member</button>
             <FaArrowRightLong />
-          </div>
+          </Link>
         </div>
       </div>
     </nav>

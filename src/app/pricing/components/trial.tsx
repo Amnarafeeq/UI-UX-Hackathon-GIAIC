@@ -19,7 +19,6 @@ const Trial = () => {
         <div className="w-[242px] h-[50px] flex justify-evenly items-center text-[25px]">
           <FaTwitter className="text-[#55ACEE]" />
           <FaFacebook className="text-[#395185]" />
-
           <FaInstagram />
           <IoLogoLinkedin className="text-[#0A66C2]" />
         </div>
